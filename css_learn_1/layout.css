@@ -1,0 +1,32 @@
+*{
+    border: 1px red solid;
+}
+
+body{
+    display: flex;
+    border-color: blue;
+    flex-direction: row;
+}
+
+.box200{
+    min-width: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.green-bg{
+    background-color: green;
+}
+
+.yellow-bg{
+    background-color: yellow;
+}
+
+#first-row{
+    display: flex;
+    width: 100vw;
+    padding: 30px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
